@@ -3,17 +3,6 @@
 *.out
 *.o
 *.obj
-# macOS용 실행 파일
-*.dSYM/
-
-# --- Python ---
-__pycache__/
-*.py[cod]
-*$py.class
-
-# --- Java ---
-*.class
-*.jar
 
 # --- VS Code 설정 및 기타 ---
 .vscode/
