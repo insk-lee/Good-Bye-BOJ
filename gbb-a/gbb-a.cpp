@@ -9,29 +9,29 @@ int main() {
     // 2 <= n <= 100
     int n; cin >> n;
 
-    int rows = 2*n;
-    int cols = 4*n+2;
+    int rows = 2 * n;
+    int cols = 4 * n + 2;
 
-    for(int i = 0; i<rows; i++) {
-        for(int j = 0; j<cols; j++) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
 
             // left diag
-            if(j == 2*n-i-1) {
+            if (j == 2 * n - 1 - i) {
                 cout << "*";
             }
             // right BOJ park
             else {
                 int l_Pos, r_Pos;
 
-                if(i<n) {
-                    l_Pos = 3*n-1;
+                if (i < n) {
+                    l_Pos = 3 * n - i;
+                    r_Pos = 3 * n + 2 + i;
                 } else {
-                    l_Pos = n+i+1;
+                    l_Pos = 2 * n + 1 + (i - n);
+                    r_Pos = 4 * n + 1 - (i - n);
                 }
 
-                r_Pos = 4*n+2-(l_Pos-2*n);
-
-                if(j == l_Pos || j == r_Pos) {
+                if (j == l_Pos || j == r_Pos) {
                     cout << "*";
                 } else {
                     cout << " ";
