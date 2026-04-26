@@ -1,1 +1,1 @@
-# Good Bye, BOJ! 대회 풀이 저장소
+# Good Bye, BOJ!
