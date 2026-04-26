@@ -1,4 +1,3 @@
 # Good Bye, BOJ!
 
-<img width="1292" height="908" alt="Image" src="https://github.com/user-attachments/assets/b014bfde-1231-4fac-9c4a-43dc89481ec7" />
-
+<img width="1190" height="3321" alt="Image" src="https://github.com/user-attachments/assets/b543a8b3-d617-4bae-a1ac-77c54952447e" />
